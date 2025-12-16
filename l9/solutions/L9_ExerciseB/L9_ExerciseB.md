@@ -1,4 +1,4 @@
-## L9 Exercise A: Solution
+## L9 Exercise B: Solution
 
 **1. Workflow creation**
 
@@ -10,13 +10,13 @@ I created a new workflow in n8n and named it according to the required naming
 
 I created a **Webhook node** to act as the trigger.
 
-**Configuration:** It is set to listen for a call on the webhook associated with my Codespace link
+**Configuration:** It is set to listen for a call on the test webhook associated with my Codespace link
 
 **3. HTTP API Request**
 
 Next, I created a **HTTP Request node**.
 
-The node calls an external API (that does not work as of 16.12.2025) and as I understand should get a response in JSON with a quote.
+The node calls an external API and gets a response in JSON with a quote.
 
 ![HTTP Request node configuration](step2.png)
 
@@ -31,4 +31,3 @@ This node takes the JSON data returned by the API and sends it back as the HTTP 
 
 ![Response proof](step4.png)
 
-**API DOES NOT WORK AS OF 16.12.2025, BUT I AM FOLLOWING THE EXERCISE STEPS**
